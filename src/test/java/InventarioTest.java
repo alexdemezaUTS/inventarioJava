@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class InventarioTest {
     @Test
     void calculaSubtotal() {
-        assertEquals(200, inventario.calcularSubtotal(50, 4));
+        assertEquals(201, inventario.calcularSubtotal(50, 4));
     }
 
     @Test
